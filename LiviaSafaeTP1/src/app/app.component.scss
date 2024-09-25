@@ -1,5 +1,11 @@
-// mettre le fond du header en violet
-// mettre la police du h1 dans le header en blanc
+header {
+  height: 50px;
+  background-color: violet;
+  color: white;
+  text-align: center;
+}
 
-
-//
+footer {
+  height: 50px;
+  background-color: orange;
+}
