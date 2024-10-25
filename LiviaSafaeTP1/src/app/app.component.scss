@@ -3,6 +3,14 @@ header {
   background-color: violet;
   color: white;
   text-align: center;
+  line-height: 50px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
 }
 
 footer {

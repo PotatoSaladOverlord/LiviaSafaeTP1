@@ -2,17 +2,10 @@
   <h1>Livia Safae</h1>
 </header>
 
-<main>
-  <div class="carre_fond">
-    <div class="logo_microsoft">
-      <div class="carre_rouge"></div>
-      <div class="carre_vert"></div>
-      <div class="carre_bleu"></div>
-      <div class="carre_jaune"></div>
-    </div>
-  </div>
+<main [ngStyle]="{'background-color': couleurFond}">
+  <app-carre-contenant
+    (couleurFond_emmiter)="changerCouleur($event)"></app-carre-contenant>
 </main>
-
 
 <footer>
 </footer>
